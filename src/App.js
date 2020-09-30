@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!!!</h1>
+     <div className="back-color">
+       <HelloWorld></HelloWorld>
+     </div>
     </div>
   );
 }
